@@ -1,0 +1,119 @@
+body {
+  background-color: #edefee;
+  font-family: "Markazi Text", serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ffff;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #495e57;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  background-color: #ffff;
+  border-radius: 20px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px 100px 20px 100px;
+}
+
+a:link {
+  color: #495e57;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: rgb(17, 162, 73);
+}
+
+.banner-img {
+  height: 350px;
+  border-radius: 20px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+}
+
+.dish-img {
+  width: 300px;
+  border-radius: 20px;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.dish-img:hover {
+  opacity: 0.2;
+}
+
+.button {
+  top: 50%;
+  background-color: #495e57;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+  font-family: "Markazi Text", serif;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: rgb(17, 162, 73);
+}
+
+footer {
+  display: flex;
+}
+
+.copyright {
+  text-align: right;
+}
+
+footer div {
+  flex: 1;
+}
